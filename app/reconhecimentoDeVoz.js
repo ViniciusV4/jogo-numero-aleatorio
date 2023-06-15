@@ -22,7 +22,7 @@ function onSpeak(e) {
     verificaSeOChutePossuiUmValorValido(chute)
 }
 
-// controi o texto e exibe o resultado na tela do usuario
+// constroi o texto e exibe o resultado na tela do usuario
 function exibeChuteNaTela(chute) {
     elementoChute.innerHTML = `
         <div>Você disse</div>
