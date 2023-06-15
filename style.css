@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;700&display=swap');
+
+:root {
+    --font-family: 'Dancing Script', cursive;
+    --color-primary: #810CA8;
+    --color-secundary: #E5B8F4;
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-secundary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    font-family: var(--font-family);
+} 
+
+h1 {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 2em;
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+.box {
+    border: 7px groove var(--color-secundary);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    border: 2px solid var(--color-secundary);
+    background: var(--color-secundary);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: var(--color-primary);
+    font-family: var(--font-family);
+    font-size: 1.7em;
+}
